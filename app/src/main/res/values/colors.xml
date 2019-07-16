@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Azulito">#1D38F8</color>
+    <color name="Naranjon">#FD6101</color>
+    <color name="Rojito">#D8442D</color>
+    <color name="Greenie">#AEB8A0</color>
+    <color name="Black">#050404</color>
+</resources>

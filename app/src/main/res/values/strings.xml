@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VeranoApp</string>
+    <string-array name="add_spínner">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Animal</item>
+        <item>Otros</item>
+    </string-array>
+</resources>

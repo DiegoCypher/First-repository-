@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/Rojito">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Nombre"
+        android:textColor="@color/Black"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingresa tu nombre"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:id="@+id/txtNombre"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Edad"
+        android:textColor="@color/Black"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingresa tu edad"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:id="@+id/txtEdad"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Género"
+        android:textColor="@color/Black"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hombre/Mujer"
+        android:textSize="20sp"
+        android:textColor="@color/Black"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerGenero">
+    </Spinner>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Agregar"
+         android:textColor="@color/Azulito"
+         android:textSize="30sp"
+         android:background="@color/Greenie"
+         android:id="@+id/btnAdd"/>
+
+
+</LinearLayout>
